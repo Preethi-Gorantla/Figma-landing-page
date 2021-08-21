@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
 .navbar{
     background-color: #F6F6F6;
 }
 .navbar-nav{
     float: right;
     margin-left: 50%;
+}
+.image{
+    width: 70%;
 }
 .first-frame{
     margin-top: 30px;
@@ -28,9 +34,9 @@
     background-color:  #F6F6F6;
 }
 .welcome-name{
-    padding: 60px 30px 10px 10px;
-    height: 86px;
-    width: 454px;
+    padding: 20px;
+    height: auto;
+    width: auto;
     left: 728px;
     top: 57px;
     border-radius: nullpx;
@@ -42,9 +48,9 @@
     text-align: left;
 }
 .welcome-para{
-    padding: 60px 30px 10px 10px;
-    height: 270px;
-    width: 520px;
+    padding: 20px;
+    height: auto;
+    width: auto;
     left: 728px;
     top: 167px;
     border-radius: nullpx;
@@ -58,7 +64,10 @@
     color:gray;
 }
 .products{
-    margin: 20px;
+    padding: 40px;
+}
+.prod-para{
+    width: 100%;
 }
 .name{
     height: 37px;
@@ -86,7 +95,7 @@
     color: #1F2E35;
 }
 .contact-section{
-    margin-top: 100px;
+    margin-top: 3%;
     line-height: 6px;
     padding: 20px;
 }
@@ -97,5 +106,10 @@
 .footer{
     background-color:  #EE4248;
     color: white;
-    padding: 8px;
+    padding: 5px;
+    width: 100%;
 }
+
+
+
+
