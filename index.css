@@ -69,20 +69,6 @@ body{
 .prod-para{
     width: 100%;
 }
-.name{
-    height: 37px;
-    width: 145px;
-    left: 24px;
-    top: 139px;
-    border-radius: nullpx;
-    color: #EE4248;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 37px;
-    letter-spacing: 0em;
-    text-align: left;
-}
 .pands{
     margin-top: 50px;
     text-align: center;
@@ -110,6 +96,8 @@ body{
     width: 100%;
 }
 
-
-
-
+@media (min-width:300px) and (max-width:500px){
+    body{
+        text-align: center;
+    }
+}
