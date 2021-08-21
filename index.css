@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.navbar{
+    background-color: #F6F6F6;
+}
+.navbar-nav{
+    float: right;
+    margin-left: 50%;
+}
+.first-frame{
+    margin-top: 30px;
+    padding: 50px;
+}
+.first-name{
+    font-weight: 600;
+}
+.special-name{
+    color: #EE4248;
+}
+.fa-angle-down{
+    margin-left:8px;
+}
+.btn{
+    background-color: #EE4248;
+    color: #F6F6F6;
+}
+.welcome-frame{
+    background-color:  #F6F6F6;
+}
+.welcome-name{
+    padding: 60px 30px 10px 10px;
+    height: 86px;
+    width: 454px;
+    left: 728px;
+    top: 57px;
+    border-radius: nullpx;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.welcome-para{
+    padding: 60px 30px 10px 10px;
+    height: 270px;
+    width: 520px;
+    left: 728px;
+    top: 167px;
+    border-radius: nullpx;
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:gray;
+}
+.products{
+    margin: 20px;
+}
+.name{
+    height: 37px;
+    width: 145px;
+    left: 24px;
+    top: 139px;
+    border-radius: nullpx;
+    color: #EE4248;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.pands{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1F2E35;
+}
+.contact-section{
+    margin-top: 100px;
+    line-height: 6px;
+    padding: 20px;
+}
+.contact-section-head{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.footer{
+    background-color:  #EE4248;
+    color: white;
+    padding: 8px;
+}
